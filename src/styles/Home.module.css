@@ -37,6 +37,7 @@
 .code {
   font-weight: 700;
   font-family: var(--font-mono);
+  padding: 8px;
 }
 
 .grid {
@@ -72,17 +73,18 @@
   max-width: 30ch;
 }
 
-.donut {
-  height: 400px;
-  z-index: 10;
+.container {
+  position: relative;
+  height: 30%;
 }
-
 
 .center {
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
+  top: 30%;
+  right: 50%;
   padding: 4rem 0;
 }
 

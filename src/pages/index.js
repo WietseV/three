@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 import Spline from '@splinetool/react-spline';
@@ -20,15 +19,16 @@ export default function Home() {
       
         <div className={styles.description}>
           <p>
-           Some very juicy <code className={styles.code}>ANIMATIONS</code> incoming:&nbsp; 
+           Some very juicy <code className={styles.code}> ANIMATIONS </code> incoming:&nbsp;
           </p>
           <div>
           </div>
         </div>
-
-        <div className={styles.center}/>
-        <Spline scene='https://prod.spline.design/nkQqswQh3T9FRcI8/scene.splinecode' className={styles.donut}/>
-
+        <div className={styles.container}>
+          <div className={styles.center}/>
+          <Spline scene='https://prod.spline.design/nkQqswQh3T9FRcI8/scene.splinecode' className={styles.donut} style={{"z-index": "10",
+            "max-height": "400px", height: "400px", width: "320px"}}/>
+        </div>
         <div className={styles.grid}>
           
           <a
