@@ -5,3 +5,6 @@ J
 src/styles/Home.module.css,6/2/621afd95ec43b70ff468925cb774e7d486548a18
 B
 src/pages/index.js,c/1/c16ef34da304c300e7b6c91b3a47fea77c278c7a
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
