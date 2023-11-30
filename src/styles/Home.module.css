@@ -72,11 +72,17 @@
   max-width: 30ch;
 }
 
+.donut {
+  height: 400px;
+  z-index: 10;
+}
+
+
 .center {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
+  position: absolute;
   padding: 4rem 0;
 }
 
@@ -184,6 +190,7 @@
     margin-bottom: 120px;
     max-width: 320px;
     text-align: center;
+    align-items: end;
   }
 
   .card {
