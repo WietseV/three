@@ -26,8 +26,8 @@ export default function Home() {
         </div>
         <div className={styles.container}>
           <div className={styles.center}/>
-          <Spline scene='https://prod.spline.design/nkQqswQh3T9FRcI8/scene.splinecode' className={styles.donut} style={{"z-index": "10",
-            "max-height": "400px", height: "400px", width: "320px"}}/>
+          <Spline scene='https://prod.spline.design/nkQqswQh3T9FRcI8/scene.splinecode' className={styles.donut} style={{"zIndex": "10",
+            "maxHeight": "400px", height: "400px", width: "320px"}}/>
         </div>
         <div className={styles.grid}>
           
